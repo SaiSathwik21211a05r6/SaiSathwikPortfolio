@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1761190__340"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/aboutheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="About"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_margin="12dp"
+
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="12dp"
+        android:id="@+id/aboutframe"
+        app:layout_constraintTop_toBottomOf="@id/aboutheading"
+        app:layout_constraintStart_toStartOf="parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/aboutframe"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:layout_margin="12dp"
+        android:id="@+id/aboutdetails"
+        android:background="@color/white"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demographics"
+        android:textColor="@color/purple_700"
+        app:layout_constraintTop_toBottomOf="@id/aboutheading"
+        app:layout_constraintTop_toTopOf="@id/aboutdetails"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:textSize="30sp"
+        android:id="@+id/demographics"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Sai Sathwik Kosuru"
+        app:layout_constraintTop_toBottomOf="@id/demographics"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/namefield"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nationality: Indian"
+        app:layout_constraintTop_toBottomOf="@id/namefield"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/nationalityfield"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Institute: B V Raju Institute of Technology"
+        app:layout_constraintTop_toBottomOf="@id/nationalityfield"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/institutefield"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Residence: Bachupally, Hyderabad, Telangana"
+        app:layout_constraintTop_toBottomOf="@id/institutefield"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/residencefield"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Work Address: Narsapur, Medak, Telangana"
+        app:layout_constraintTop_toBottomOf="@id/residencefield"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/workaddressfield"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Languages:"
+        app:layout_constraintTop_toBottomOf="@id/workaddressfield"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/languagesfield"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English    Full Professional Proficiency"
+        app:layout_constraintTop_toBottomOf="@id/languagesfield"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/languagesdetail1field"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telugu     Full Professional Proficiency"
+        app:layout_constraintTop_toBottomOf="@id/languagesdetail1field"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/languagesdetail2field"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hindi       Beginner Professional Proficiency"
+        app:layout_constraintTop_toBottomOf="@id/languagesdetail2field"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:id="@+id/languagesdetail3field"/>
+    </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

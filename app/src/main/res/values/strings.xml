@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SaiSathwikPortfolio</string>
+    <string name="About" />
+    <string name="sai_sathwik_is_a_21_25_cse_undergraduate_from_b_v_raju_instiute_of_technology_narsapur_having_known_programming_languages_like_java_c_kotlin_python_and_sql_he_is_skilled_at_machine_learning_deep_learning_and_cybersecurity_and_developed_trendsetting_projects_for_the_same_know_more_about_sai_sathwik_here">Sai Sathwik is a 21-25-CSE undergraduate from B V Raju Instiute of technology, Narsapur. Having known programming languages like JAVA, C, Kotlin, Python, and SQL, He is skilled at Machine learning, deep learning and cybersecurity and developed trendsetting projects for the same. Know more about Sai Sathwik here.</string>
+    
+    <string name="education">Education</string>
+    <string name="skills">Skills</string>
+    <string name="hard_skills">Hard Skills</string>
+    <string name="soft_skills">Soft Skills</string>
+    <string name="about1">About</string>
+    <string name="about2">Sai Sathwik is a 21-25-CSE undergraduate from B V Raju Institute of technology, Narsapur having known programming languages like JAVA, C, Kotlin, Python, and SQL, He is skilled at machine learning, deep learning and cybersecurity and developed trendsetting projects for the same. know more about Sai Sathwik</string>
+    <string name="about3">ABOUT</string>
+    <string name="skills1">Skills</string>
+    <string name="skills2">You can view the completed projects in the related skill domain based on the skill button you select. The following are the hard skills of Sai Sathwik.</string>
+    <string name="skills3">SKILLS</string>
+    <string name="Edu1">Education</string>
+    <string name="Edu2">Sai Sathwik comes from an English medium ICSE affiliated School, having core competence in the dealt curriculum and is now a Computer Science and Engineering graduate at B V Raju Institute of Technology, Narsapur.</string>
+    <string name="Edu3">EDUCATION</string>
+    <string name="km1">Know More</string>
+    <string name="km2">Know more about Sai Sathwik Here</string>
+    <string name="km3">KNOW MORE</string>
+</resources>

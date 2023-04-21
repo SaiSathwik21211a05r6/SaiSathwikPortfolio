@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1761190__340"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Education"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:id="@+id/educationheading"
+        android:layout_margin="12dp"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="10dp"
+        app:layout_constraintTop_toBottomOf="@id/educationheading"
+        app:layout_constraintStart_toStartOf="parent"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/educationheading"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="2dp"
+
+        android:id="@+id/educationdetail"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Higher Education"
+            android:background="@color/purple_700"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/educationheading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/educationdetail"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B V Raju Institute of Technology          2021-2025"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/educationdetail"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bachelor of Technology in CSE                     92.4%"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/educationdetail"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <Button
+            android:id="@+id/highedubutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Certificate"
+            android:layout_marginStart="100dp"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intermediate"
+            android:background="@color/purple_700"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/educationheading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/educationdetail"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vijayaratna Junior College                    2019-2021"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/educationdetail"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telangana State Board of Intermediate Education                                                        94.6%"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/educationdetail"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Certificate"
+            android:layout_marginStart="100dp"
+            android:id="@+id/collegecertificatebutton"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schooling"
+            android:background="@color/purple_700"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            app:layout_constraintTop_toBottomOf="@id/educationheading"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/educationdetail"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ramadevi Public School                        2009-2019"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/educationdetail"
+            app:layout_constraintStart_toStartOf="parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Council for Indian School Certificate Examinations                                                  92.4%"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/educationdetail"
+            app:layout_constraintStart_toStartOf="parent"
+
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Check Certificate"
+            android:id="@+id/schoolcertificatebutton"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="100dp"
+            />
+
+
+    </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

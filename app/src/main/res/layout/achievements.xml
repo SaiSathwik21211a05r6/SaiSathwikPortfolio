@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/nomans">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Achievement"
+        android:layout_margin="12dp"
+        android:textSize="30sp"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:id="@+id/achievementsheading"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        app:layout_constraintTop_toBottomOf="@id/achievementsheading"
+
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/achievementsheading"
+            android:orientation="vertical"
+            android:id="@+id/achievementsdetails"
+            android:layout_margin="12dp"
+            >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/achievementsdetails"
+            android:text="Higher Education"
+            android:background="@color/purple_700"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textSize="25sp"
+            android:id="@+id/highereduachievfield"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highereduachievfield"
+            android:text="Elite 1.0 Internal Hackathon at BVRIT Narsapur"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:id="@+id/elitehackathonfield"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highereduachievfield"
+            android:text="June, 2022"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:textSize="18sp"
+            android:id="@+id/elitehackathondatefield"
+            />
+
+        <TextView
+            android:id="@+id/elitehackathoncertiffield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Click here"
+            android:textColor="#3366CC"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/elitehackathondatefield" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/achievementsdetails"
+            android:text="School"
+            android:background="@color/purple_700"
+            android:textColor="@color/white"
+            android:layout_marginTop="0dp"
+            android:textSize="25sp"
+            android:id="@+id/schoolachievfield"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highereduachievfield"
+            android:text="Debate-Rank 1"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:textSize="18sp"
+            android:id="@+id/debatefield"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highereduachievfield"
+            android:text="September, 2017"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:textSize="18sp"
+            android:id="@+id/debatedatefield"
+            />
+
+        <TextView
+            android:id="@+id/debatecertiffield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Click here"
+            android:textColor="#3366CC"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/elitehackathondatefield" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highereduachievfield"
+            android:text="Extempore-Rank 2"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:id="@+id/extemporefield"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highereduachievfield"
+            android:text="August, 2016"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:textSize="18sp"
+            android:id="@+id/extemporedatefield"
+            />
+
+        <TextView
+            android:id="@+id/exteporecertiffield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Click here"
+            android:textColor="#3366CC"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/elitehackathondatefield" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highereduachievfield"
+            android:text="Proverb Recitation at Abhyasa-Rank 1"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:id="@+id/proverbrecitationfield"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/highereduachievfield"
+            android:text="August, 2018"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp"
+            android:textSize="18sp"
+            android:id="@+id/proverbrecitationdatefield"
+            />
+
+        <TextView
+            android:id="@+id/proverbrecitationcertiffield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Click here"
+            android:textColor="#3366CC"
+            android:textSize="18sp"
+            android:clickable="true"
+            android:focusable="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/elitehackathondatefield" />
+
+    </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

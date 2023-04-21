@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1761190__340"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/aboutheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Description"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="22dp"
+        android:layout_marginStart="12dp"
+        android:layout_margin="12dp"
+
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="12dp"
+        android:id="@+id/aboutframe"
+        app:layout_constraintTop_toBottomOf="@id/aboutheading"
+        app:layout_constraintStart_toStartOf="parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/aboutframe"
+        app:layout_constraintStart_toStartOf="parent"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:layout_margin="8dp"
+        android:id="@+id/aboutdetails"
+        android:background="@color/white"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sai Sathwik is a 21-25-CSE undergraduate from BVRIT Narsapur. Having been skilled at programming languages like JAVA, C, Kotlin, Python, Sathwik is mainly interested in the field of research particularly pertaining to the trending computer science products like Deep Learning, Computer Vision, Object Detection, and  LLMs. He has good networking skills where he is continuously in touch with the skilled people related to his domains/fields of interest in order to gain actionable nd reasonable insights from them. Sathwik is a skilled and active technical content writer, inclusive of documentatin and drafting skills. He is the head of Technical Development at the Team Coding Brigade BVRIT and was the member of Prefectorial board of his school which significantly harnessed his leadership skills."
+        app:layout_constraintTop_toBottomOf="@id/aboutheading"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="12dp"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/namefield"/></LinearLayout></FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
